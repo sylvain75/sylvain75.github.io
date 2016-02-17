@@ -25,6 +25,14 @@
 	transition: transform 0.5s, opacity 0.5s;
 }
 
+/*.fifty .left{
+	width: 50% !important;
+}
+
+.fifty .right{
+	width: 50% !important;
+}*/
+
 /* Clear floats of children */
 .cbp-so-side:before,
 .cbp-so-side:after {
@@ -43,7 +51,7 @@
 
 .cbp-so-side-left {
 	text-align: right;
-	width: 30%;
+	width: 25%;
 }
 
 .cbp-so-side-right img {

@@ -1,17 +1,26 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,900,400italic,100);
+* {
+  box-sizing: border-box;
+}
 
-
-body {
+html, body {
   text-align: center;
   font-family: Lato, serif;
   font-weight: 300;
   line-height: 1.8em;
  /* margin: 0 auto;*/
-  margin: 0px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
 }
 
 h1,h2,h3,h4,h5,h6 {
   font-weight: 100;
+}
+
+h1 {
+  font-size: 2em;
 }
 
 nav {
@@ -317,6 +326,23 @@ nav a {
   font-size: 3em;
 }
 
+.cbp-so-side a {
+  color: #db4848;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.gitLink {
+  display: inline-block;
+}
+
+.gitLink a {
+  color: #db4848;
+}
+
 
 /*moving projects*/
 .demo-3 {
@@ -332,9 +358,11 @@ nav a {
     padding:0;
     position:relative;
     cursor:pointer;
-    margin-left:-50px
+    margin-left:-50px;
+
 }
 .demo-3 figure img {
+    height: 200px !important;
     display:block;
     position:relative;
     z-index:10;
