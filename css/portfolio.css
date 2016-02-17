@@ -44,7 +44,7 @@ nav a {
 .hero {
   background-image: url(../images/surise_desert.jpg);
   background-size: cover;
-  min-height: 500px;
+  min-height: 600px;
   display: block;
   padding: 90px 50px 30px 50px;
 }
@@ -227,7 +227,7 @@ nav a {
 }
 
 .feature .right {
-  width: 70%;
+  width: 95%;
   display: left;
   display: inline-block;
 }
@@ -308,6 +308,16 @@ nav a {
   font-weight: 400;
 }
 
+.fa-github {
+  font-size: 3em;
+}
+
+.fa-linkedin {
+  margin-left: 50px;
+  font-size: 3em;
+}
+
+
 /*moving projects*/
 .demo-3 {
     position:relative;
@@ -370,6 +380,7 @@ nav a {
     transition:all .5s
 }
 .demo-3 figure img {
+    height: auto;
     backface-visibility:hidden;
     -webkit-transition:all .5s;
     -moz-transition:all .5s;
@@ -386,6 +397,10 @@ nav a {
     transform:rotateY(0)
 }
 
+.demo-3 li {
+  list-style-type: none;
+}
+
 .blackBG {
   background-color: rgba(40, 50, 62, 1.0);
 }
@@ -396,6 +411,10 @@ nav a {
 
 .blueBG {
   background-color: #56a2cf;
+}
+
+.projectImg {
+
 }
 
 .btn {
@@ -463,3 +482,6 @@ nav a {
     .btn-outline:hover {
       color: rgba(40, 50, 62, 1.0);
       background-color: #FFF; }
+
+
+
