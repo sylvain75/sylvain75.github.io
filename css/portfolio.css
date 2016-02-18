@@ -17,11 +17,12 @@ html, body {
 
 h1,h2,h3,h4,h5,h6 {
   font-weight: 100;
+  font-size: 1.5em;
 }
 
-h1 {
-  font-size: 2em;
-}
+/*h1 {
+  font-size: 3em;
+}*/
 
 nav {
   height: 60px;
@@ -236,7 +237,7 @@ nav a {
 }
 
 .feature .right {
-  width: 95%;
+  width: 90%;
   display: left;
   display: inline-block;
 }
@@ -317,6 +318,11 @@ nav a {
   font-weight: 400;
 }
 
+.fa-envelope-o {
+  font-size: 75px;
+  color: rgba(255, 255, 255, 0.2);
+}
+
 .fa-github {
   font-size: 3em;
 }
@@ -342,6 +348,28 @@ img {
 .gitLink a {
   color: #db4848;
 }
+
+#artFift {
+  width: 40%;
+}
+
+/*#artWork, #artWork {
+  width: 50%;
+}*/
+
+/*#artSkills, #artSkills1 {
+  width: 50%;
+}*/
+
+#artFift1 {
+  width: 60%;
+}
+
+#artFift .left {
+  margin-left: 300px;
+  margin-top: 25px;
+}
+
 
 
 /*moving projects*/
@@ -439,6 +467,10 @@ img {
 
 .blueBG {
   background-color: #56a2cf;
+}
+
+.veryBlackBG {
+  background-color: #3c3c3f;
 }
 
 .projectImg {
