@@ -305,10 +305,6 @@ nav a {
 
   }
 
-/*  .optionP {
-    display: none;
-  }*/
-
 }
 
 @media (max-width: 610px) {
@@ -322,6 +318,7 @@ nav a {
     margin-top: 2px;
     font-size: 6px;
   }
+}
 
   @media (max-width: 500px) {
     figcaption h3 {
