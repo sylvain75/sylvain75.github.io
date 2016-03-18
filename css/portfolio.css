@@ -385,7 +385,7 @@ img {
 
 
 /*moving projects*/
-.demo-3 {
+/*.demo-3 {
     position:relative;
     width:300px;
     height:200px;
@@ -467,7 +467,7 @@ img {
 
 .demo-3 li {
   list-style-type: none;
-}
+}*/
 
 .blackBG {
   background-color: rgba(40, 50, 62, 1.0);
