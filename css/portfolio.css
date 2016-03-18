@@ -304,12 +304,51 @@ nav a {
     font-size: 9px;
 
   }
+
 /*  .optionP {
     display: none;
   }*/
 
 }
 
+@media (max-width: 610px) {
+  figcaption h3 {
+    padding: 1px 2px;
+    margin-top: 1px;
+    font-size: 10px;
+  }
+  figcaption p {
+    padding: 1px 2px;
+    margin-top: 2px;
+    font-size: 6px;
+  }
+
+  @media (max-width: 500px) {
+    figcaption h3 {
+      font-family: 'Open sans';
+      font-weight: 400;
+      color: #f3b204;
+      padding: 5px 10px;
+      margin-bottom: 0;
+      position: relative;
+      righ: 100%;
+      margin-top: 10px;
+      font-size: 25px;
+    }
+
+    figcaption p {
+      font-family: 'Open sans';
+      padding: 5px 10px;
+      margin-bottom: 0;
+      margin-top: 5px;
+      position: relative;
+      left: 100%;
+      font-size: 15px;
+    }
+    .optionP {
+      display: initial;
+    }
+}
 .text_main {
 /*  background-image: url(../images/ocean.jpg);
   background-size: cover;*/
